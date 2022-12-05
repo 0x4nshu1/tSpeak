@@ -1,7 +1,7 @@
 import pyttsx3
 import sys
 
-# engine = pyttsx3.init()
+engine = pyttsx3.init()
 
 if (sys.argv[1] == "-m"):
     voices = pyttsx3.init().getProperty('voices')
